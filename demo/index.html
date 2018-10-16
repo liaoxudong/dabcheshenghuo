@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.css" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>单车博客—首页</title>
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			a{
+				text-decoration: none;
+				color: gainsboro;
+			}
+			ul li{
+				font-size: 12px;
+				margin-top: 3px;
+			}
+			header {
+				height: 70px;
+				width: 100%;
+				background-color: black;
+				opacity: 0.8;
+				display: flex;
+				align-items: center;
+			}
+			
+			.head1 {
+				width: 35%;
+				height: 50px;
+				position: absolute;
+				display: flex;
+				margin-left: 30%;
+				justify-content: center;
+				align-items: center;
+			}
+			
+			.div1,
+			.div2,
+			.div3,
+			.div4,
+			.div5 {
+				margin-left: 20px;
+				font-size: 15px;
+				color: gainsboro;
+			}
+			
+			.div1:hover,
+			.div2:hover,
+			.div3:hover,
+			.div4:hover,
+			.div5:hover {
+				color: aqua;
+			}
+			
+			.div22 {}
+			
+			.div6 {
+				height: 50px;
+				width: 15%;
+				margin-left: 48%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			
+			input {
+				background-color: #000000;
+				border: 1px solid blue;
+				height: 30px;
+				color: white;
+			}
+			
+			input::-ms-input-placeholder {
+				color: white;
+			}
+			
+			.lb {
+				width: 100%;
+				height: 500px;
+				background-color: gainsboro;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			
+			.img1 {
+				width: 50%;
+				height: 84%;
+				overflow: hidden;
+				display: flex;
+				position: relative;
+				z-index: 1;
+			}
+			
+			.img1 img:nth-child(1) {
+				width: 100%;
+				height: 100%;
+				animation: do 10s linear infinite;
+			}
+			
+			.img1 img:nth-child(2) {
+				width: 100%;
+				height: 100%;
+				animation: do 10s linear infinite;
+			}
+			
+			.img1 img:nth-child(3) {
+				width: 100%;
+				height: 100%;
+				animation: do 10s linear infinite;
+			}
+			
+			.img1 img:nth-child(4) {
+				width: 100%;
+				height: 100%;
+				animation: do 10s linear infinite;
+			}
+			
+			@keyframes do {
+				0% {}
+				100% {
+					transform: translateX(-1430px);
+				}
+			}
+			
+			.body {
+				width: 67.9%;
+				height: 1750px;
+				margin: auto;
+				display: flex;
+				
+			}
+			
+			.bl {
+				width: 75%;
+				height: 98%;
+				border-right: 1px solid black;
+			}
+			
+			.bl .div7 {
+				width: 100%;
+				height: 80px;
+				display: flex;
+				align-items: center;
+			}
+			
+			.br {
+				width: 25%;
+				height: 85%;
+			}
+			
+			.div222 .div22 {
+				display: none;
+			}
+			
+			.div2:hover .div222 .div22 {
+				display: block;
+			}
+			
+			.div3:hover .div222 .div22 {
+				display: block;
+			}
+			
+			.im1:hover,
+			.im2:hover,
+			.im3:hover,
+			.im4:hover,
+			.im5:hover,
+			.im6:hover {
+				opacity: 0.5;
+			}
+			
+			h4:hover {
+				color: red;
+				cursor:pointer;
+			}
+			
+			.im7:hover {
+				opacity: 0.7;
+			}
+			.font1{
+				color: gray;
+			}
+			.font1:hover{
+				color: red;
+				cursor:pointer;
+			}
+			.footer{
+				width: 100%;
+				height: 100px;
+				background-color: black;
+				opacity: 0.8;
+				margin-top: 5%;
+			}
+			a{
+				cursor: pointer;
+			}
+			.footer div span:nth-child(1),.footer div span:nth-child(2),.footer div span:nth-child(3){
+				color: blue;
+			}
+			.footer div span:nth-child(1):hover,.footer div span:nth-child(2):hover,.footer div span:nth-child(3):hover{
+				color: white;
+				cursor: pointer;
+			}
+			.wlh{
+				color: white;
+			}
+			.wlh:hover{
+				color: red;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header id="header" style="position: relative;z-index: 20;">
+			<img style="margin-left: 15%;" src="img/logo.png" />
+			<div class="head1" style="">
+				<div class="div1"><a href="index.html">首页</a></div>
+				<div class="div2" style="margin-left: 25px;"><a href="bikelist.html">单车分类</a> <i style="margin-left: 5px;" class="fa fa-caret-down fa"></i>
+					<div class="div222" style="display: flex;flex-direction: column;position: absolute;margin-top: 22px;">
+						<div class="div22" style="background-color: black;opacity: 0.9;width: 180px;height: 30px;line-height: 30px;color: white;font-size: 13px;">
+							<span style="margin-left: 5%;">死飞车</span>
+						</div>
+						<div class="div22" style="background-color: black;opacity: 0.9;width: 180px;height: 30px;line-height: 30px;color: white;font-size: 13px;">
+							<span style="margin-left: 5%;">复古骑行</span>
+						</div>
+						<div class="div22" style="background-color: black;opacity: 0.9;width: 180px;height: 30px;line-height: 30px;color: white;font-size: 13px;">
+							<span style="margin-left: 5%;">公路车</span>
+						</div>
+						<div class="div22" style="background-color: black;opacity: 0.9;width: 180px;height: 30px;line-height: 30px;color: white;font-size: 13px;">
+							<span style="margin-left: 5%;">山地车</span>
+						</div>
+						<div class="div22" style="background-color: black;opacity: 0.9;width: 180px;height: 30px;line-height: 30px;color: white;font-size: 13px;">
+							<span style="margin-left: 5%;">折叠/小径车</span>
+						</div>
+						<div class="div22" style="background-color: black;opacity: 0.9;width: 180px;height: 30px;line-height: 30px;color: white;font-size: 13px;">
+							<span style="margin-left: 5%;">BMX</span>
+						</div>
+						<div class="div22" style="background-color: black;opacity: 0.9;width: 180px;height: 30px;line-height: 30px;color: white;font-size: 13px;">
+							<span style="margin-left: 5%;">城市车及其他</span>
+						</div>
+					</div>
+				</div>
+				<div class="div3" style="margin-left: 25px;"><a href="gearlist.html">骑行装备</a> <i style="margin-left: 5px;" class="fa fa-caret-down fa"></i>
+					<div class="div222" style="display: flex;flex-direction: column;position: absolute;margin-top: 22px;">
+						<div class="div22" style="background-color: black;opacity: 0.9;width: 180px;height: 30px;line-height: 30px;color: white;font-size: 13px;">
+							<span style="margin-left: 5%;">车身装备</span>
+						</div>
+						<div class="div22" style="background-color: black;opacity: 0.9;width: 180px;height: 30px;line-height: 30px;color: white;font-size: 13px;">
+							<span style="margin-left: 5%;">人身装备</span>
+						</div>
+
+					</div>
+				</div>
+				<div class="div4"><a href="life.html">单车生活</a></div>
+				<div class="div5"><a href="news.html">行业资讯</a></div>
+			</div>
+			<div class="div6">
+				<input type="text" value="在这里搜索..." />
+				<img src="img/search.png" style="height: 32.5px;" />
+			</div>
+		</header>
+
+		<div class="lb">
+
+			<div class="img1">
+				<img src="img/324.jpg" />
+				<img src="img/284.jpg" />
+				<img src="img/banner3.jpg" />
+				<img src="img/banner4.jpg" />
+
+			</div>
+			<div style="width: 50%;background-color: black;position: absolute;z-index: 4;height: 50px;opacity: 0.8;margin-top: 12.19%;margin-left: -8.9%;">
+				<img src="img/arrow2.png" style="width: 50px;float: left;" />
+				<span style="color: white;float: left;line-height: 50px;margin-left: 2%;">骑看世界：春节骑行海南岛 畅游冬日骑行天堂</span>
+				<span style="display: inline-block;width: 80px;height: 50px;display: flex;align-items: center;margin-left: 30%;float: left;">
+				<span style="display: inline-block;width: 15px;height: 15px;background-color: aqua;border-radius: 70%;margin-left: 5px;"></span>
+				<span style="display: inline-block;width: 10px;height: 10px;background-color: white;border-radius: 70%;margin-left: 5px;"></span>
+				<span style="display: inline-block;width: 10px;height: 10px;background-color: white;border-radius: 70%;margin-left: 5px;"></span>
+				<span style="display: inline-block;width: 10px;height: 10px;background-color: white;border-radius: 70%;margin-left: 5px;"></span>
+				</span>
+				<img src="img/arrow1.png" style="width: 50px;float: right;" />
+			</div>
+			<img style="margin-left: 1%;" src="img/1-140206160415Y6.jpg" />
+
+			<div class="wlh" style="position: absolute;margin-left: 25.5%;margin-top: 12.9%;width: 255px;background-color:aqua;height: 30px;text-align: center;line-height: 30px;opacity: 0.9;font-size: 14px;">COACH再度携手王力宏 踩单车演</div>
+
+		</div>
+		<a href="#header"><img src="img/scroll.png" style="position: fixed;left:97%;top: 93%;z-index: 25;" /></a>
+		<div class="body">
+			<div class="bl">
+				<div class="div7">
+					<img style="" src="img/xh3.png" />
+					<nav style="color: grey;font-size: 12px;margin-left: 20%;">死飞车 | 复古骑行 | 公路车 | 山地车 | 折叠/小径车 | BMX | 城市车及其他 |</nav>
+				</div>
+				<div class="div8" style="display: flex;flex-direction: column;width: 95%;height: 1600px;margin: auto;">
+					<div style="width: 100%;height: 250px;border-bottom: 1px solid gray;margin-top: 20px;">
+						<img class="im1" src="img/352.jpg" style="height: 90%;width: 50%;float: left;" />
+						<div style="width: 45%;height: 90%;float: left;margin-left: 2%;">
+							<h4 style="margin-top: 20px;">骑看世界：三个女孩的欧洲骑行之路</h4>
+
+							<p style="font-size: 12px;color: gainsboro;margin-top: 4%;">2014年02月06日 17:26</p>
+							<br />
+							<p style="font-size: 12px;color: gray;">经历了欧洲漫长的冬季，卡佳，凯茜和米歇尔三个女孩决定开始他们本年度第一次roadtrip，于是他们脱离了自己正常的生活模式，开始进入自行车模式开始他们的骑行之旅。她们的第一站是列支敦士登的Ell...</p>
+							<br />
+							<div style="margin-left: 70%;display: flex;align-items: center;"><i class="fa fa-eye fa"></i><span style="font-size: 11px;color: gray;margin-left: 2%;">119</span><i class="fa fa-heart fa" style="margin-left: 10%;"></i><span style="font-size: 11px;color: gray;margin-left: 2%;">1</span></div>
+						</div>
+					</div>
+					<div style="width: 100%;height: 250px;border-bottom: 1px solid gray;margin-top: 20px;">
+						<img class="im2" src="img/352.jpg" style="height: 90%;width: 50%;float: left;" />
+						<div style="width: 45%;height: 90%;float: left;margin-left: 2%;">
+							<h4 style="margin-top: 20px;">骑看世界：三个女孩的欧洲骑行之路</h4>
+
+							<p style="font-size: 12px;color: gainsboro;margin-top: 4%;">2014年02月06日 17:26</p>
+							<br />
+							<p style="font-size: 12px;color: gray;">经历了欧洲漫长的冬季，卡佳，凯茜和米歇尔三个女孩决定开始他们本年度第一次roadtrip，于是他们脱离了自己正常的生活模式，开始进入自行车模式开始他们的骑行之旅。她们的第一站是列支敦士登的Ell...</p>
+							<br />
+							<div style="margin-left: 70%;display: flex;align-items: center;"><i class="fa fa-eye fa"></i><span style="font-size: 11px;color: gray;margin-left: 2%;">119</span><i class="fa fa-heart fa" style="margin-left: 10%;"></i><span style="font-size: 11px;color: gray;margin-left: 2%;">1</span></div>
+						</div>
+					</div>
+					<div style="width: 100%;height: 250px;border-bottom: 1px solid gray;margin-top: 20px;">
+						<img class="im3" src="img/352.jpg" style="height: 90%;width: 50%;float: left;" />
+						<div style="width: 45%;height: 90%;float: left;margin-left: 2%;">
+							<h4 style="margin-top: 20px;">骑看世界：三个女孩的欧洲骑行之路</h4>
+
+							<p style="font-size: 12px;color: gainsboro;margin-top: 4%;">2014年02月06日 17:26</p>
+							<br />
+							<p style="font-size: 12px;color: gray;">经历了欧洲漫长的冬季，卡佳，凯茜和米歇尔三个女孩决定开始他们本年度第一次roadtrip，于是他们脱离了自己正常的生活模式，开始进入自行车模式开始他们的骑行之旅。她们的第一站是列支敦士登的Ell...</p>
+							<br />
+							<div style="margin-left: 70%;display: flex;align-items: center;"><i class="fa fa-eye fa"></i><span style="font-size: 11px;color: gray;margin-left: 2%;">119</span><i class="fa fa-heart fa" style="margin-left: 10%;"></i><span style="font-size: 11px;color: gray;margin-left: 2%;">1</span></div>
+						</div>
+					</div>
+					<div style="width: 100%;height: 250px;border-bottom: 1px solid gray;margin-top: 20px;">
+						<img class="im4" src="img/352.jpg" style="height: 90%;width: 50%;float: left;" />
+						<div style="width: 45%;height: 90%;float: left;margin-left: 2%;">
+							<h4 style="margin-top: 20px;">骑看世界：三个女孩的欧洲骑行之路</h4>
+
+							<p style="font-size: 12px;color: gainsboro;margin-top: 4%;">2014年02月06日 17:26</p>
+							<br />
+							<p style="font-size: 12px;color: gray;">经历了欧洲漫长的冬季，卡佳，凯茜和米歇尔三个女孩决定开始他们本年度第一次roadtrip，于是他们脱离了自己正常的生活模式，开始进入自行车模式开始他们的骑行之旅。她们的第一站是列支敦士登的Ell...</p>
+							<br />
+							<div style="margin-left: 70%;display: flex;align-items: center;"><i class="fa fa-eye fa"></i><span style="font-size: 11px;color: gray;margin-left: 2%;">119</span><i class="fa fa-heart fa" style="margin-left: 10%;"></i><span style="font-size: 11px;color: gray;margin-left: 2%;">1</span></div>
+						</div>
+					</div>
+					<div style="width: 100%;height: 250px;border-bottom: 1px solid gray;margin-top: 20px;">
+						<img class="im5" src="img/352.jpg" style="height: 90%;width: 50%;float: left;" />
+						<div style="width: 45%;height: 90%;float: left;margin-left: 2%;">
+							<h4 style="margin-top: 20px;">骑看世界：三个女孩的欧洲骑行之路</h4>
+
+							<p style="font-size: 12px;color: gainsboro;margin-top: 4%;">2014年02月06日 17:26</p>
+							<br />
+							<p style="font-size: 12px;color: gray;">经历了欧洲漫长的冬季，卡佳，凯茜和米歇尔三个女孩决定开始他们本年度第一次roadtrip，于是他们脱离了自己正常的生活模式，开始进入自行车模式开始他们的骑行之旅。她们的第一站是列支敦士登的Ell...</p>
+							<br />
+							<div style="margin-left: 70%;display: flex;align-items: center;"><i class="fa fa-eye fa"></i><span style="font-size: 11px;color:gray;margin-left: 2%;">119</span><i class="fa fa-heart fa" style="margin-left: 10%;"></i><span style="font-size: 11px;color: gray;margin-left: 2%;">1</span></div>
+						</div>
+					</div>
+					<div style="width: 100%;height: 250px;border-bottom: 1px solid gray;margin-top: 20px;">
+						<img class="im6" src="img/352.jpg" style="height: 90%;width: 50%;float: left;" />
+						<div style="width: 45%;height: 90%;float: left;margin-left: 2%;">
+							<h4 style="margin-top: 20px;">骑看世界：三个女孩的欧洲骑行之路</h4>
+
+							<p style="font-size: 12px;color: gainsboro;margin-top: 4%;">2014年02月06日 17:26</p>
+							<br />
+							<p style="font-size: 12px;color: gray;">经历了欧洲漫长的冬季，卡佳，凯茜和米歇尔三个女孩决定开始他们本年度第一次roadtrip，于是他们脱离了自己正常的生活模式，开始进入自行车模式开始他们的骑行之旅。她们的第一站是列支敦士登的Ell...</p>
+							<br />
+							<div style="margin-left: 70%;display: flex;align-items: center;"><i class="fa fa-eye fa"></i><span style="font-size: 11px;color: gray;margin-left: 2%;">119</span><i class="fa fa-heart fa" style="margin-left: 10%;"></i><span style="font-size: 11px;color: gray;margin-left: 2%;">1</span></div>
+						</div>
+					</div>
+					<div class="im7" src="img/next01.png" style="width: 60px;height: 65px;margin-top: 50px;margin-left: 90%;background: url(img/next01.png);"></div>
+				</div>
+
+			</div>
+
+			<div class="br">
+
+				<img src="img/hots_bg.png" style="width: 90%;height: 50px;margin-top: 5%;margin-left: 5%;" />
+				<div style="width: 90%;height:100px;margin-left: 5%;margin-top: 5%;border-bottom: 1px dashed grey;">
+					<img src="img/68.png" style="width: 50%;height: 70px; float: left;" />
+					<div class="font1" style="font-size: 10px;width: 45%;height: 50px;float: left;margin-left: 5%;margin-top: 6%;">环西冠军克里斯霍纳的个性化定制座驾 Trek Madone公路车</span>
+					</div>
+
+				</div>
+
+				<div style="width: 90%;height:100px;margin-left: 5%;margin-top: 5%;border-bottom: 1px dashed grey;">
+					<img src="img/68.png" style="width: 50%;height: 70px; float: left;" />
+					<div class="font1" style="font-size: 10px;width: 45%;height: 50px;float: left;margin-left: 5%;margin-top: 6%;">环西冠军克里斯霍纳的个性化定制座驾 Trek Madone公路车</span>
+					</div>
+
+				</div>
+
+				<div style="width: 90%;height:100px;margin-left: 5%;margin-top: 5%;border-bottom: 1px dashed grey;">
+					<img src="img/68.png" style="width: 50%;height: 70px; float: left;" />
+					<div class="font1" style="font-size: 10px;width: 45%;height: 50px;float: left;margin-left: 5%;margin-top: 6%;">环西冠军克里斯霍纳的个性化定制座驾 Trek Madone公路车</span>
+					</div>
+
+				</div>
+
+				<div style="width: 90%;height:100px;margin-left: 5%;margin-top: 5%;border-bottom: 1px dashed grey;">
+					<img src="img/68.png" style="width: 50%;height: 70px; float: left;" />
+					<div class="font1" style="font-size: 10px;width: 45%;height: 50px;float: left;margin-left: 5%;margin-top: 6%;">环西冠军克里斯霍纳的个性化定制座驾 Trek Madone公路车</span>
+					</div>
+
+				</div>
+				<br />
+				<img src="img/tg.jpg" style="width: 90%;margin-left: 5%;" />
+				<br />
+				<br />
+				<br />
+				<img src="img/links_bg.png" style="width: 90%;margin-left: 5%;" />
+				<br />
+				<br />
+				<div style="width: 50%;height: 40px;line-height: 40px;color: grey;border-bottom: 1px solid gray;color: black;font-size: 12px;margin-left: 5%;">技术支持</div>
+				
+			</div>	
+		</div>
+		<div style="width: 67.9%;height: 250px;margin: auto;">
+			<div style="width: 100%;height: 8px;background-color: darkslategrey;"></div>
+			<br />
+		<h1>SITE MAP</h1>
+		<div style="width: 75%;height: 250px;display: flex;justify-content: center;float: left;">
+			<div style="width: 18%;height: 180px;border-left: 1px solid gray;margin-top: 5%;">
+				<ul style="margin-left: 20%;"><span style="margin-left: -20px;font-weight: bold;">单车分类</span>
+					<li style="margin-top: 5px;">死飞车</li>
+					<li>复古骑行</li>
+					<li>公路车</li>
+					<li>山地车</li>
+					<li>折叠/小径车</li>
+					<li>BMX</li>
+					<li>城市车及其他</li>
+				</ul>
+			</div>
+			<div style="width: 18%;height: 180px;border-left: 1px solid gray;margin-top: 5%;">
+				<ul style="margin-left: 20%;"><span style="margin-left: -20px;font-weight: bold;">骑行装备</span>
+					<li style="margin-top: 5px;">车身装备</li>
+					<li>人身装备</li>
+					
+					
+				</ul>
+			</div>
+			<div style="width: 18%;height: 180px;border-left: 1px solid gray;margin-top: 5%;">
+				<ul style="margin-left: 20%;"><span style="margin-left: -20px;font-weight: bold;">单车生活</span>
+					
+				</ul>
+			</div>
+			<div style="width: 18%;height: 180px;border-left: 1px solid gray;margin-top: 5%;">
+				<ul style="margin-left: 20%;"><span style="margin-left: -20px;font-weight: bold;">行业资讯</span>
+				
+				</ul>
+			</div>
+			<div style="width: 18%;height: 180px;border-left: 1px solid gray;margin-top: 5%;">
+				<ul style="margin-left: 20%;"><span style="margin-left: -20px;font-weight: bold;">关于</span>
+					<li style="margin-top: 5px;">关于我们</li>
+					<li>联系我们</li>
+					<li>我要投稿</li>
+					<li>网站模板</li>
+				</ul>
+			</div>
+		</div>
+		<div style="float: left;width: 25%;height: 250px;">
+		<div style="width: 50%;height: 180px;border-left: 1px solid gray;margin-top: 15%;">
+				<ul style="margin-left: 20%;"><nav style="font-weight: bold;display: inline-block;margin-left: -15px;">FOLLOW US</nav>
+					<img src="img/weixin.jpg" style="width: 120px;height: 120px;margin-top: 20px;" />
+				</ul>
+			</div>
+			</div>
+		</div>
+		
+		<div class="footer" style="position: absolute;z-index: 2;">
+			<div style="margin-left: 40%;margin-top: 20px;"><span style="font-size: 12px;margin-left: 15px;">关于我们</span><span style="font-size: 12px;margin-left: 30px;">联络我们</span><span style="font-size: 12px;margin-left: 30px;">我要投稿</span>
+				<br /><br />
+				<span style="color: gray;font-size: 12px;margin-left: -80px;">Copyright © 2002-2015DAIYOU8.COM 版权所有</span><span style="color: darkgrey;font-size: 12px;margin-left: 10px;">琼ICP备XXXXXX号</span>
+			</div>
+			
+		</div>
+	</body>
+
+</html>

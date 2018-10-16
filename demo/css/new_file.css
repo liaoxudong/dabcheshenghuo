@@ -1,0 +1,407 @@
+* {
+				margin: 0;
+				padding: 0;
+			}
+			a{
+				text-decoration: none;
+				color: gainsboro;
+			}
+			ul li{
+				font-size: 12px;
+				margin-top: 3px;
+			}
+			header {
+				height: 70px;
+				width: 100%;
+				background-color: black;
+				opacity: 0.8;
+				display: flex;
+				align-items: center;
+			}
+			
+			.head1 {
+				width: 35%;
+				height: 50px;
+				position: absolute;
+				display: flex;
+				margin-left: 30%;
+				justify-content: center;
+				align-items: center;
+			}
+			
+			.div1,
+			.div2,
+			.div3,
+			.div4,
+			.div5 {
+				margin-left: 20px;
+				font-size: 15px;
+				color: gainsboro;
+			}
+			
+			.div1:hover,
+			.div2:hover,
+			.div3:hover,
+			.div4:hover,
+			.div5:hover {
+				color: aqua;
+			}
+			
+			.div22 {}
+			
+			.div6 {
+				height: 50px;
+				width: 15%;
+				margin-left: 48%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			
+			input {
+				background-color: #000000;
+				border: 1px solid blue;
+				height: 30px;
+				color: white;
+			}
+			
+			input::-ms-input-placeholder {
+				color: white;
+			}
+			
+			.lb {
+				width: 100%;
+				height: 500px;
+				background-color: gainsboro;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			
+			.img1 {
+				width: 50%;
+				height: 84%;
+				overflow: hidden;
+				display: flex;
+				position: relative;
+				z-index: 1;
+			}
+			
+			.img1 img:nth-child(1) {
+				width: 100%;
+				height: 100%;
+				animation: do 10s linear infinite;
+			}
+			
+			.img1 img:nth-child(2) {
+				width: 100%;
+				height: 100%;
+				animation: do 10s linear infinite;
+			}
+			
+			.img1 img:nth-child(3) {
+				width: 100%;
+				height: 100%;
+				animation: do 10s linear infinite;
+			}
+			
+			.img1 img:nth-child(4) {
+				width: 100%;
+				height: 100%;
+				animation: do 10s linear infinite;
+			}
+			
+			@keyframes do {
+				0% {}
+				100% {
+					transform: translateX(-1430px);
+				}
+			}
+			
+			.body {
+				width: 67.9%;
+				height: 1750px;
+				margin: auto;
+				display: flex;
+				
+			}
+			
+			.bl {
+				width: 75%;
+				height: 98%;
+				border-right: 1px solid black;
+			}
+			
+			.bl .div7 {
+				width: 100%;
+				height: 80px;
+				display: flex;
+				align-items: center;
+			}
+			
+			.br {
+				width: 25%;
+				height: 85%;
+			}
+			
+			.div222 .div22 {
+				display: none;
+			}
+			
+			.div2:hover .div222 .div22 {
+				display: block;
+			}
+			
+			.div3:hover .div222 .div22 {
+				display: block;
+			}
+			
+			.im1:hover,
+			.im2:hover,
+			.im3:hover,
+			.im4:hover,
+			.im5:hover,
+			.im6:hover {
+				opacity: 0.5;
+			}
+			
+			h4:hover {
+				color: red;
+				cursor:pointer;
+			}
+			
+			.im7:hover {
+				opacity: 0.7;
+			}
+			.font1{
+				color: gray;
+			}
+			.font1:hover{
+				color: red;
+				cursor:pointer;
+			}
+			.footer{
+				width: 100%;
+				height: 100px;
+				background-color: black;
+				opacity: 0.8;
+				margin-top: 5%;
+			}
+			a{
+				cursor: pointer;
+			}
+			.footer div span:nth-child(1),.footer div span:nth-child(2),.footer div span:nth-child(3){
+				color: blue;
+			}
+			.footer div span:nth-child(1):hover,.footer div span:nth-child(2):hover,.footer div span:nth-child(3):hover{
+				color: white;
+				cursor: pointer;
+			}
+			.wlh{
+				color: white;
+			}
+			.wlh:hover{
+				color: red;
+			}
+header {
+				height: 70px;
+				width: 100%;
+				background-color: black;
+				opacity: 0.8;
+				display: flex;
+				align-items: center;
+			}
+			
+			.head1 {
+				width: 35%;
+				height: 50px;
+				position: absolute;
+				display: flex;
+				margin-left: 30%;
+				justify-content: center;
+				align-items: center;
+			}
+			
+			.div1,
+			.div2,
+			.div3,
+			.div4,
+			.div5 {
+				margin-left: 20px;
+				font-size: 15px;
+				color: gainsboro;
+			}
+			
+			.div1:hover,
+			.div2:hover,
+			.div3:hover,
+			.div4:hover,
+			.div5:hover {
+				color: aqua;
+			}
+.div6 {
+				height: 50px;
+				width: 15%;
+				margin-left: 48%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			
+			input {
+				background-color: #000000;
+				border: 1px solid blue;
+				height: 30px;
+				color: white;
+			}
+			
+			input::-ms-input-placeholder {
+				color: white;
+			}
+.div222 .div22 {
+				display: none;
+			}
+			
+			.div2:hover .div222 .div22 {
+				display: block;
+			}
+			
+			.div3:hover .div222 .div22 {
+				display: block;
+			}
+			
+			.im1:hover,
+			.im2:hover,
+			.im3:hover,
+			.im4:hover,
+			.im5:hover,
+			.im6:hover {
+				opacity: 0.5;
+			}
+
+div.img {
+    margin-left: 80px;
+    margin-top: 80px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+    background-color: white;
+}
+.responsive{
+	display: flex;
+	float: left;
+}
+div.img:hover {
+    border: 1px solid #777;
+}
+div.img img:hover{
+	opacity: 0.5;
+}
+div.img img{
+    width: 100%;
+    height: auto;  
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+div.desc:hover{
+	color: red;
+}
+p{
+	color: darkgrey;
+}
+.threebox{
+	float: right;
+	padding-right: 350px;
+	margin-top: 40px;
+	font-size: 8px;
+	font-family: "微软雅黑";
+}
+.img-wrap{
+	width: 300px;
+	border: 1px solid #777777;
+}
+.secondbox{
+
+	background-color: grey;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+p{
+	font-size: 8px;
+	margin-top: 5px;
+}
+body{
+	background-color: grey;
+}
+#threeone{
+	background-color: black;
+	color: white;
+}
+.threebox a{
+	width: 20px;
+	height: 20px;
+	border: 1px solid black;
+	background-color: grey;
+	color: black;
+	padding: 0px 10px;
+	text-decoration: none;
+}
+.threebox a:hover{
+	background-color: black;
+	color: white;
+	font-weight: 700;
+}
+.fourbox{
+	margin-top: 100px;
+	width: 100%;
+	height: 150px;
+	background-color: black;
+}
+.fourbox{
+	left: 400px;
+}
+.fourbox ul li{
+	float: left;
+	display: block;
+	margin-left: 25px;
+	position: relative;
+	top: 20px;
+	left: 300px;
+}
+.fourbox ul li a{
+	text-decoration: none;
+	color: blue;
+}
+.fourbox ul li a:hover{
+	color: white;
+}
+.fourbox span{
+	position: relative;
+	left: 350px;
+}
+.fourbox2 span{
+	position: relative;
+	left: -20px;
+	top: 70px;
+	color: ghostwhite;
+	opacity: 0.5;
+	font-size: 10px;
+}
+.fourbox2 a{
+	position: relative;
+	top: 70px;
+	text-decoration: none;
+	color:whitesmoke;
+	opacity: 0.7;
+	font-size: 10px;
+}
+.fourbox2 a:hover{
+	color: red;
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
